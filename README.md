@@ -10,13 +10,13 @@
 * Travis CI を設定して、自動ビルドが通るようにしてください
    * Travis CI のGitHubアカウントでの登録とforkしたリポジトリをTravisCI側で許可する
    * 参考サイト：[Travis CIで自動テストして、結果をGitHubのトップページに表示する](https://qiita.com/hoshimado/items/4090d8e64beb8a7f95e1)
-* forkしたリポジトリの README.md ファイルの「t-kougei-game-comp」の部分を自分のGitHubアカウント名に差し替えてください(2箇所)
+* forkしたリポジトリの README.md ファイルの「t-kougei-game-comp-2019」の部分を自分のGitHubアカウント名に差し替えてください(2箇所)
 * 問題を解いて、テストを通るようにしてください。
 * fork 元の master ブランチにプルリクエストを投げてください
 
 # テスト結果
 
-[![Build Status](https://travis-ci.com/t-kougei-game-comp/04_doubly_linked_list.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp/04_doubly_linked_list)
+[![Build Status](https://travis-ci.com/t-kougei-game-comp-2019/04_doubly_linked_list.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp-2019/04_doubly_linked_list)
 
 # 今回の問題
 
