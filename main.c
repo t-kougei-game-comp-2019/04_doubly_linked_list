@@ -19,6 +19,8 @@ void showList(two_way_list *start, two_way_list *end)
 	two_way_list *tmp = start;
 	while (tmp != end->next)
 	{
+		if(tmp!=start)
+			printf(",");
 		printf("%d", tmp->date);
 		tmp = tmp->next;
 	}
