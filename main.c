@@ -37,7 +37,22 @@ int main(int argc, char *argv[])
 			showList(header, end);
 			continue;
 		}
-		
+		if (atoi(str) == 100)
+		{
+			tmp = header;
+			header = tmp->next;
+			printf("%d\n", tmp->date);
+			free(tmp);
+			continue;
+		}
+		if (atoi(str) == -100)
+		{
+			tmp = end;
+			end = tmp->preview;
+			printf("%d\n", tmp->date);
+			free(tmp);
+			continue;
+		}
 		tmp = (two_way_list *)malloc(sizeof(two_way_list));
 		tmp->date = atoi(str);
 		if (header == NULL)
