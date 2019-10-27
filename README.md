@@ -16,7 +16,7 @@
 
 # テスト結果
 
-[![Build Status](https://travis-ci.com/t-kougei-game-comp-2019/04_doubly_linked_list.svg?branch=master)](https://travis-ci.com/t-kougei-game-comp-2019/04_doubly_linked_list)
+[![Build Status](https://travis-ci.com/yasu2520/04_doubly_linked_list.svg?branch=master)](https://travis-ci.com/yasu2520/04_doubly_linked_list)
 
 # 今回の問題
 
